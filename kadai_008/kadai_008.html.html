@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
+  <body>
+
   <head>
     <title>8章課題</title>
     <meta name="description" content="このページは8章の課題です。">
-    <mata name="UTF-8">
+    <mata charset="UTF-8">
   </head>
-  <h1>「SAMURAIニュース」</h1>
+  <header>
+      <h1>「SAMURAIニュース」</h1>
   <nav>
     <a href="https://www.sejuku.net/">ホーム</a>
     <a href="https://www.sejuku.net/">社会</a>
@@ -13,7 +16,8 @@
     <a href="https://www.sejuku.net/">スポーツ</a>
     <a href="https://www.sejuku.net/">テクノロジー</a>
   </nav>
-<main>
+  </header>
+  <main>
 <article>
   <section>
     <h2>社会</h2>
@@ -22,27 +26,28 @@
     <p>日本でも年々人気の高まるハロウィン。
     <br>今年は大手和菓子店5社がハロウィン向けの和菓子セットを共同開発しました。</p>
   </section>
-  <audio src="ichi.mp3" controls></audio>
+     <audio src="ichi.mp3" controls></audio>
+  <section>
   <h3>「私のおすすめ和菓子アンケートフォーム」</h3>
+  <form>
   <label>氏名</label>
   <input type="text" placeholder="名前を入力っしてください">
   <br>
   <label>年代</label>
-  <br>
+  <select>
     <option>10代以下</option>
     <option>20代</option>
     <option>30代</option>
     <option>40代以上</option>
-  
+  </select>
+  <br>
     <label>男性</label><input type="radio" name="gender">
     <label>女性</label><input type="radio" name="gender">
     <label>その他</label><input type="radio" name="gender">
   <br>
-
-    <label>おすすめ和菓子の名称</label>
+  <label>おすすめ和菓子の名称</label>
     <input type="text" placeholder="みたらし団子">
   <br>
-
     <label>おすすめの理由</label>
   <textarea></textarea>
   <br>
@@ -51,6 +56,7 @@
   <br>
   <input type="submit" value="送信">
   <input type="reset" value="リセット">
+</form>
 </section>
 <section>
   <h2>テクノロジー</h2>
@@ -60,13 +66,13 @@
   <iframe width="560" height="315" src="https://www.youtube.com/embed/2JLiGSUohEo?si=dYFBM0CLuGjkqdmn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </section>
+
 <footer>
   <p>&copy; SAMURAIニュース</p>
 </footer>
 
 </article>
 </main>
-  <body>
 
   </body>
 </html>
