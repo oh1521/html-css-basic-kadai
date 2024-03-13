@@ -5,12 +5,6 @@ html {
 body {
   font-family: "Arial", "Meiryo", sans-serif;
   }
-.h1 {
-  font-family: "Arial", "Meiryo", sans-serif;
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 2em;
- }
-
 .skyblue {
   color: #87ceeb;
 }
@@ -18,9 +12,12 @@ body {
   color: rgb(255, 192, 203)
 }
 .decoration {
-  letter-spacing: 1.2rem;
+  font-family: "Arial", "Meiryo", sans-serif;
+  font: size 2rem;
+  font-weight: normal;
+  letter-spacing: 1.2em;
   text-shadow: 1px 1px 2px gray;
-  text-decoration: underline 3px rgb(115,115,114);
+  border-bottom: solid 3px rgb(115,115,114);
 }
 #basic p {
   font-weight: bold;
@@ -30,4 +27,7 @@ body {
 }
 .text-skyblue {
   color: skyblue;
+}
+.google-fonts{
+  font-family:"josefin Sans","sans-serif" ;
 }
