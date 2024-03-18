@@ -1,3 +1,11 @@
+header {
+  margin-bottom: 20px;
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+header h1 {
+  color: rgb(255, 255, 255);
+}
 h1, p, body {
   margin: 0;
 }
@@ -67,3 +75,11 @@ footer a:hover {
     flex-direction: column;
   }
 }
+.flexbox-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+
